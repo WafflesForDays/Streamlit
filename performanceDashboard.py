@@ -2,7 +2,6 @@ import streamlit as st
 import time
 
 col1, col2 = st.columns(2, gap = "small")
-st.set_page_config(layout = "wide")
 st.title('Student Dashboard')
 with col1:
     st.header('Volunteer hours completed:')
