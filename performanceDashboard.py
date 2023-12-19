@@ -6,7 +6,7 @@ st.set_page_config(layout = "wide")
 st.title('Student Dashboard')
 col1.header('Volunteer hours completed:')
 col1.text('40/40')
-progress_bar = col2.progress(0)
+progress_bar = col2.progress(0, use_column_width = True)
 for i in range(100):
     progress_bar.progress(i + 1)
     time.sleep(0.01)
