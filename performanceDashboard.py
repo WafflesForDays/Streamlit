@@ -1,7 +1,8 @@
 import streamlit as st
 
+progress_bar = st.progress(0)
 st.title('Student Dashboard')
-courses = st.number_input('How many courses do you have this semester?')
-for i in range(courses):
-    st.slider(f'What is your average in your period {i} class', min_value = 0, max_value = 100)
-
+st.header('Volunteer hours completed')
+for i in range(40):
+    progress_bar.progress(i + 1)
+st.header('Top 6 courses:')
