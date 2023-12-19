@@ -1,4 +1,7 @@
 import streamlit as st
 
-st.title('Dashboard')
-st.text('test')
+st.title('Student Dashboard')
+courses = st.number_input('How many courses do you have this semester?')
+for i in range(courses):
+    st.slider(f'What is your average in your period {i} class')
+
