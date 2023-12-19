@@ -7,7 +7,7 @@ with col1:
     st.header('Volunteer hours completed:')
     st.text('40/40')
 with col2:
-    for i in range(5):
+    for i in range(7):
         st.text('')
     progress_bar = st.progress(0)
 for i in range(100):
