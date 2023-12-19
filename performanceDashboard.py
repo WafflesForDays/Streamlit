@@ -1,12 +1,14 @@
 import streamlit as st
 import time
 
-col1, col2 = st.columns(2, gap = "small")
 st.title('Student Dashboard')
+col1, col2 = st.columns(2, gap = "small")
 with col1:
     st.header('Volunteer hours completed:')
     st.text('40/40')
 with col2:
+    for i in range(5):
+        st.text('')
     progress_bar = st.progress(0)
 for i in range(100):
     progress_bar.progress(i + 1)
