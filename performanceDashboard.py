@@ -2,7 +2,7 @@ import streamlit as st
 import time
 
 st.title('Student Dashboard')
-col1, col2, col3 = st.columns([6, 1, 6])
+col1, col2, col3 = st.columns(6, 1, 6)
 with col1:
     st.text('')
 with col2:
