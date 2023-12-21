@@ -26,7 +26,7 @@ with expanderCourses:
         Math1 = CircularProgress(
             label="Advanced functions",
             value=96,
-            key="my_circular_progress",
+            key="Math1",
             color = "blue")
         
         Math1.st_circular_progress()
@@ -34,7 +34,7 @@ with expanderCourses:
         English = CircularProgress(
             label="English",
             value=95,
-            key="my_circular_progress",
+            key="English",
             color = "red")
         
         English.st_circular_progress()
@@ -43,7 +43,7 @@ with expanderCourses:
         Math2 = CircularProgress(
             label="Calculus and Vectors",
             value=96,
-            key="my_circular_progress",
+            key="Math2",
             color = "blue")
         
         Math2.st_circular_progress()
@@ -51,7 +51,7 @@ with expanderCourses:
         Physics = CircularProgress(
             label = "Physics",
             value = 96,
-            key = "my_circular_progress",
+            key = "Physics",
             color = "orange")
         
         Physics.st_circular_progress()
@@ -60,7 +60,7 @@ with expanderCourses:
         cs = CircularProgress(
             label = "Computer Science",
             value = 100,
-            key = "my_circular_progress",
+            key = "cs",
             color = "green")
         
         cs.st_circular_progress()
@@ -68,7 +68,7 @@ with expanderCourses:
         Business = CircularProgress(
             label = "International Business",
             value = 100,
-            key = "my_circular_progress",
+            key = "Business",
             color = "yellow")
         
         Business.st_circular_progress() 
