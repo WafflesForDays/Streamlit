@@ -71,6 +71,6 @@ with expanderCourses:
             key = "my_circular_progress",
             color = "yellow")
         
-        Business.st_circular_progress()
+        Business.st_circular_progress() 
 
 
