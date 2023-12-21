@@ -4,8 +4,11 @@ import time
 st.title('Student Dashboard')
 col1a, col2a, col3a = st.columns([0.45, 0.1, 0.45])
 with col1a:
-       st.header('Volunteer hours completed:')
+       st.subheader('Volunteer hours completed:')
 with col2a:
+    st.text('')
+    st.text('')
+    st.text('')
     st.text('40/40')
 with col3a:
     for i in range(7):
