@@ -2,6 +2,9 @@ import streamlit as st
 import time
 from st_circular_progress import CircularProgress
 
+st.title('Ted Pavlov')
+st.subheader('348705732')
+st.text('')
 st.title('Student Dashboard')
 col1a, col2a, col3a = st.columns([0.45, 0.1, 0.45])
 with col1a:
